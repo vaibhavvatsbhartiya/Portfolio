@@ -13,7 +13,7 @@ const Project = () => {
         <div className='main_div flex flex-wrap w-full justify-evenly gap-4 sm:p-5'>
         {Pdata.map((e) =>{
             return(
-              <Card key={e.id} image={e.image} altText={e.altText} title={e.title} text={e.text}  icon1={e.icon1} icon2={e.icon2}  link1={e.link1} />
+              <Card key={e.id} image={e.image} altText={e.altText} title={e.title} text={e.text}  icon1={e.icon1} icon2={e.icon2}  link1={e.link1} link2={e.link2}/>
             );})}
         </div>
       </div>
