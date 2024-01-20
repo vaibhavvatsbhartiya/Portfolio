@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body::-webkit-scrollbar{
+    width: 1rem;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #3b82f6;
+    /* background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #ef4444 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(239 68 68 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position); */
+}
+
+
+
+body::-webkit-scrollbar-thumb{
+    background: blue;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+}
