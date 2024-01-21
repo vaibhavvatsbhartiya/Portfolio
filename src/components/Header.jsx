@@ -5,7 +5,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className=" p-4 ">
+    <div className=" p-3 ">
       <div className=" max-w-[1280px] items-center py-5 mx-auto  text-xl flex justify-between text-white ">
         <div className="cursor-pointer text-[20px] sm:text-2xl md:text-3xl font-bold hover:text-blue-900">Vaibhav Vats</div>
 

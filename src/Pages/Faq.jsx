@@ -16,13 +16,13 @@ const Faq = () => {
   };
 
   return (
-    <div className=" md:p-5 ">
+    <div className="  md:p-5 ">
       <div className="max-w-[1280px]  h-auto md:p-5 flex flex-col items-center my-10 mx-auto">
-        <div className="">
+        <div className="pb-10">
           <Heading heading="FAQ's" />
         </div>
-        <div className="main_div flex  w-full justify-evenly p-5">
-          <div className="container mx-auto p-4 lg:w-2/3 w-full">
+        <div className="main_div flex  w-full justify-evenly p-3 md:p-5">
+          <div className="container mx-auto md:p-4 lg:w-2/3 w-full">
             {faqData.map((faq, index) => (
               <div key={index} className="mb-4">
                 <div

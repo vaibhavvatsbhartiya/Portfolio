@@ -8,7 +8,7 @@ const Service = () => {
   
   return (
     <div className="p-3 md:p-5">
-      <div className="max-w-[1280px] h-auto  flex  flex-col sm:p-5 items-center my-10 mx-auto">
+      <div className="max-w-[1280px] h-auto  flex  flex-col sm:p-5 items-center md:my-10 mx-auto">
         <div className="pb-10">
           <Heading heading="Services" />
         </div>
@@ -24,3 +24,5 @@ const Service = () => {
 };
 
 export default Service;
+
+

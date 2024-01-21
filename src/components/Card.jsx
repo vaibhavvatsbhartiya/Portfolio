@@ -4,8 +4,8 @@ import SmallHeading from "./SmallHeading";
 const Card = (props) => {
   return (
     <>
-      <div className=" w-auto flex  flex-col sm:flex-row gap-4 justify-center ">
-        <div className=" w-full md:w-[300px] lg:w-[350px] bg-gradient-to-l from-red-500 to-blue-500  rounded-3xl ">
+      <div className=" w-auto flex  flex-col sm:flex-row gap-4 pt-5 justify-center ">
+        <div className=" w-full md:w-[300px] lg:w-[350px] bg-gradient-to-l from-red-500 to-blue-500  md:hover:scale-110 duration-200 rounded-3xl ">
           <div className="w-full">
             <img
               src={props.image}
@@ -17,13 +17,13 @@ const Card = (props) => {
             <div className="pb-2">
               <SmallHeading heading={props.title} />
             </div>
-            <div>{props.text}</div>
+            <div className="text-white text-sm sm:text-lg">{props.text}</div>
           </div>
-          <div className="flex gap-6 text-3xl justify-center p-4">
-            <a href={props.link1} className="cursor-pointer" target="blank">
+          <div className="flex gap-6 text-3xl justify-center p-4 text-white">
+            <a href={props.link1} className="cursor-pointer hover:scale-125" target="blank">
               {props.icon1}
             </a>
-            <a href={props.link2} className="cursor-pointer" target="blank">
+            <a href={props.link2} className="cursor-pointer hover:scale-125" target="blank">
               {props.icon2}
             </a>
           </div>
@@ -34,3 +34,5 @@ const Card = (props) => {
 };
 
 export default Card;
+
+
